@@ -42,51 +42,6 @@ main {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.about-content {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 0;
-}
-
-.work-content {
-  background: #f8f9fa;
-  padding: 2rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-}
-
-.professional-summary {
-  color: #4169E1;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-bottom: 1rem;
-}
-
-.hobbies-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.hobby-card {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.hobby-card:hover {
-  transform: translateY(-5px);
-}
-
-.hobby-card h3 {
-  color: #4169E1;
-  margin-top: 0;
-}
-
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -94,15 +49,10 @@ main {
 }
 
 .project {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.project:hover {
-  transform: translateY(-5px);
+  background: #e9ecef;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
 form {
